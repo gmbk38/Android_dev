@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">clicker</string>
+    <string name="plus"> + </string>
+    <string name="counter">Вы нажали кнопку 0 раз</string>
+    <string name="minus"> - </string>
+    <string name="reset"> Reset </string>
+</resources>
