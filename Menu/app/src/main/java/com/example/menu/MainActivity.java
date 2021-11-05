@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     TextView tv;
     CheckBox chb;
 
-
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         // находим элементы
         tv = (TextView) findViewById(R.id.textView);
         chb = (CheckBox) findViewById(R.id.chbExtMenu);
-
     }
 
     // создание меню
@@ -32,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.mymenu, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
 
     // обновление меню
     @Override
